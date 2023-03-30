@@ -16,7 +16,7 @@ bot = Bot(TOKEN)
 def welcome(update, context) -> None:
     update.message.reply_text(f"Hello {update.message.from_user.first_name}, Welcome to Movie AI bot \n"
                               f"🔥 Download Your Favourite Movies For 💯 Free And 🍿 Enjoy it. \n \n"
-                              f"How To Download = https://vimeo.com/813088682 ")
+                              f"How To Download = https://t.me/movieaibackup/2 ")
     update.message.reply_text("👇 Enter Movie Name 👇")
 
 
